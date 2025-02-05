@@ -27,7 +27,8 @@ Variables on the above command:
 
 You should find the custom ISO on the upper directory of your working folder, unless you change the parameter `../name_of_your_custom_iso.iso`
 i.e. If you extracted the Ubuntu's ISO files on your downloads directory, the custom ISO will be in your home folder.
-|||||Português Brasileiro|||||
+
+# |||||Português Brasileiro|||||
 # Exemplo de autoinstall feito pelo Diolinux!
 A senha é: 123 Use a URL do arquivo no instalador do Ubuntu (Subiquity) 
 ## Crie um ISO personalizado (alternativa)
