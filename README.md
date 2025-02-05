@@ -3,7 +3,11 @@
 This is a sample file, it can be used as reference for your own installations. 
 The password is: 123
 
-Use the URL of the file in the Ubuntu Installer (Subiquity)
+Use the URL of the file in the Ubuntu Installer (Subiquity).
+In case you edited the file or created your own "autoinstall.yaml",
+fork this repository, put your edited file into the fork (or just copy and paste
+your text from your own file into the autoinstall from the forked
+repository)
 
 ## Create a custom ISO (alternative)
 
@@ -29,7 +33,11 @@ You should find the custom ISO on the upper directory of your working folder, un
 i.e. If you extracted the Ubuntu's ISO files on your downloads directory, the custom ISO will be in your home folder.
 
 ## |||||Português Brasileiro|||||.                                                                                         Exemplo de autoinstall feito pelo Diolinux!
-A senha é: 123 Use a URL do arquivo no instalador do Ubuntu (Subiquity) 
+A senha é: 123 Use o Link do arquivo no instalador do Ubuntu (Subiquity).
+Caso você tenha feito seu próprio arquivo ou tenha editado
+exemplo de "autoinstall.yaml", De um fork nesse repositório,
+coloque seu arquivo lá (ou só edite o autoinstall e copie e cole
+o texto do seu próprio arquivo)
 ## Crie um ISO personalizado (alternativa)
 1. Baixe o ISO oficial do Ubuntu.
 2. Extraia para uma pasta de sua preferência
