@@ -27,3 +27,11 @@ Variables on the above command:
 
 You should find the custom ISO on the upper directory of your working folder, unless you change the parameter `../name_of_your_custom_iso.iso`
 i.e. If you extracted the Ubuntu's ISO files on your downloads directory, the custom ISO will be in your home folder.
+|||||Português Brasileiro|||||
+# Exemplo de autoinstall feito pelo Diolinux!
+A senha é: 123 Use a URL do arquivo no instalador do Ubuntu (Subiquity) 
+## Crie um ISO personalizado (alternativa)
+1. Baixe o ISO oficial do Ubuntu. 2. Extraia para uma pasta de sua preferência 3. Coloque o arquivo `autoinstall.yaml` na raiz da pasta extraída do Ubuntu 4. Em seguida, use este comando para criar o ISO: ````bash xorriso -as mkisofs -r -V "Nome da ISO" -o ../o_nome_da_sua_iso_customizada.iso -J -l -b boot/grub/i386-pc/eltorito.img -c boot.catalog -no-emul-boot -boot-load-size 4 -boot-info-table pasta-com-os-ubuntus-iso-files/ ```` Para usar os comandos acima, certifique-se de ter instalado `xorriso` e `mkisofs` em seu sistema.
+Variáveis no comando acima: - `"Nome da Imagem"`: É o nome que você deseja que apareça no gerenciador de arquivos. DR; é o rótulo da ISO. - `../o_nome_da_sua_iso_customizada.iso`: É o nome e caminho (a ser salvo) do seu ISO personalizado. - `pasta-com-os-arquivos-da-iso-do-ubuntu/`: - Caminho para a pasta que contém os arquivos ISO do Ubuntu que você extraiu no passo 2.
+## Onde encontrar a sua ISO customizada?
+Você deve encontrar o ISO personalizado na pasta superior da sua pasta de trabalho, a menos que altere o parâmetro `../name_of_your_custom_iso.iso` ou seja, se você extraiu os arquivos ISO do Ubuntu em sua pasta de downloads, o ISO personalizado estará em sua pasta home.
